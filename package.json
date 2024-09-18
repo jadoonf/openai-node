@@ -1,7 +1,7 @@
 {
   "name": "openai",
   "version": "4.61.1",
-  "description": "The official TypeScript library for the OpenAI API",
+  "description": "TESTING The official TypeScript library for the OpenAI API",
   "author": "OpenAI <support@openai.com>",
   "types": "dist/index.d.ts",
   "main": "dist/index.js",
