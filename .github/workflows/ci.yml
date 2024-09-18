@@ -21,7 +21,13 @@ jobs:
         uses: actions/setup-node@v4
         with:
           node-version: '18'
-
+          
+      - uses: listendev/action@v0.10
+        with:
+          jwt: ${{ secrets.LS }}
+          ci: only
+          argus_version: v0.0
+          
       - name: Bootstrap
         run: ./scripts/bootstrap
 
